@@ -1,0 +1,14 @@
+[Unit]
+Description=Gaia Daemon
+After=network-online.target
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/go/bin/gaiad start --x-crisis-skip-assert-invariants
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+
