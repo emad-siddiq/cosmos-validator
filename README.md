@@ -1,7 +1,8 @@
 # Cosmos Validator Node Setup Guide
 
 This guide explains how to set up a pruned [Cosmos Validator node](https://hub.cosmos.network/main/validators/validator-setup), and manage it using `systemd`.
-![Uploading cosmos-hub-image-64b35193bcb3998afd27f30060ed5ab5.jpg…]()
+
+![cosmos-hub-image-64b35193bcb3998afd27f30060ed5ab5](https://github.com/user-attachments/assets/ea44a632-87ad-42bc-9179-a9c90cc460a9)
 
 ## 1. Install Go
 
